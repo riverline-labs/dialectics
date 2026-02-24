@@ -1,5 +1,8 @@
 // Construct Decomposition Protocol (CDP)
-// Version: 0.1.0
+// Version: 0.1.1
+//
+// Changes from 0.1.0:
+//   - Reorganized to protocols/adversarial/
 //
 // CDP addresses the case where a construct exhibits incoherence that cannot
 // be resolved by candidate selection or invariant revision within CFFP.
@@ -34,7 +37,7 @@ package cdp
 
 #Protocol: {
 	name:        "Construct Decomposition Protocol"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Incoherence-driven construct splitting. Parts must be more coherent than the whole."
 }
 
