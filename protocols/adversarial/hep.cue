@@ -1,5 +1,8 @@
 // Hypothesis Elimination Protocol (HEP)
-// Version: 0.1.0
+// Version: 0.1.1
+// Changelog:
+//   - source_ids: [...string] changed to source_id: string for structural consistency
+//   - Reorganized to protocols/adversarial/
 //
 // HEP addresses the case where a phenomenon has been observed and multiple
 // causal explanations are on the table. The protocol drives toward the
@@ -60,7 +63,7 @@ package hep
 
 #Protocol: {
 	name:        "Hypothesis Elimination Protocol"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Evidence-driven hypothesis elimination. Survivors are least-eliminated, not proven."
 }
 
@@ -347,7 +350,9 @@ package hep
 #EliminatedHypothesis: {
 	hypothesis_id: string
 	reason:        #EliminationReason
-	source_ids:    [...string] // evidence item ids that caused elimination
+	// For decisive/strong inconsistency: the evidence item id.
+	// For accumulated_weak_pressure: the id of the #AccumulatedPressure record in Phase3.
+	source_id: string
 }
 
 #SurvivorHypothesis: {
