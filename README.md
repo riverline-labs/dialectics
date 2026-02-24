@@ -14,7 +14,7 @@ Protocols are schemas that AI agents execute and CUE can validate. Each protocol
 │  routing · recording                                                │
 ├─────────────────────────────────────────────────────────────────────┤
 │  PROTOCOL LAYER                                                     │
-│  domain-specific instantiations of the dialectic                   │
+│  domain-specific instantiations of the dialectic                    │
 ├─────────────────────────────────────────────────────────────────────┤
 │  DIALECTIC LAYER  (dialectics.cue)                                  │
 │  rebuttal · challenge · derivation · obligation · revision          │
