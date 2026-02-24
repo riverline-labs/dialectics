@@ -1,5 +1,7 @@
 // Implementation Fidelity Audit (IFA)
-// Version: 0.1.0
+// Version: 0.1.1
+// Changelog:
+//   - Reorganized to protocols/evaluative/
 //
 // IFA adjudicates whether a specific implementation faithfully realizes
 // a canonical form. It is triggered when there is a dispute about whether
@@ -29,7 +31,7 @@ package ifa
 
 #Protocol: {
 	name:        "Implementation Fidelity Audit"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Adjudicates whether an implementation faithfully realizes a canonical form."
 }
 

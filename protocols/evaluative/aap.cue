@@ -1,5 +1,7 @@
 // Assumption Audit Protocol (AAP)
-// Version: 0.1.0
+// Version: 0.1.1
+// Changelog:
+//   - Reorganized to protocols/evaluative/
 //
 // AAP is a forensic protocol. Its input is an existing argument or design —
 // something already built or concluded. Its output is a ranked fragility map:
@@ -34,7 +36,7 @@ package aap
 
 #Protocol: {
 	name:        "Assumption Audit Protocol"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Forensic assumption extraction and stress-testing. Output is a ranked fragility map."
 }
 

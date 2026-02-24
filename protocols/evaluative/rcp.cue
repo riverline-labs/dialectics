@@ -1,5 +1,7 @@
 // Reconciliation Protocol (RCP)
-// Version: 0.1.0
+// Version: 0.1.1
+// Changelog:
+//   - Reorganized to protocols/evaluative/
 //
 // RCP addresses the case where two or more protocol runs have been conducted
 // independently and their outputs need to be placed in relation to each other.
@@ -53,7 +55,7 @@ package rcp
 
 #Protocol: {
 	name:        "Reconciliation Protocol"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Output reconciliation. Establishes the relationship between independently produced protocol outputs. Does not re-run protocols or produce new canonical forms."
 }
 
