@@ -1,5 +1,7 @@
 // Concept Boundary Protocol (CBP)
-// Version: 0.1.0
+// Version: 0.1.1
+// Changelog:
+//   - Reorganized to protocols/adversarial/
 //
 // CBP addresses the case where a term is being used inconsistently across
 // contexts — meaning different things to different people, in different
@@ -47,7 +49,7 @@ package cbp
 
 #Protocol: {
 	name:        "Concept Boundary Protocol"
-	version:     "0.1.0"
+	version:     "0.1.1"
 	description: "Usage-driven concept boundary determination. Output is a sharpened definition or a named split."
 }
 
