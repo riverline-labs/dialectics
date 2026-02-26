@@ -5,7 +5,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-OUT="$REPO_ROOT/docs/spec.md"
+OUT="$REPO_ROOT/docs/index.md"
 
 mkdir -p "$REPO_ROOT/docs"
 
